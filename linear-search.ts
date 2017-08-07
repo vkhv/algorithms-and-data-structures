@@ -1,4 +1,4 @@
-// Returns index of item from array
+// Returns index of item from array or -1
 // Complexity O(n)
 function main(list: number[], item: number): number {
 	return list.reduce(mapNumberWithArrayItem(item), -1)

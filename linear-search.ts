@@ -1,3 +1,8 @@
+// O(n)
+function main(list: number[], item: number): number {
+	return list.reduce(mapNumberWithArrayItem(item), -1)
+}
+
 interface ReduceArrayFunction extends Function {
     (prev: number, current: number, index: number): number;
 }
@@ -5,9 +10,3 @@ interface ReduceArrayFunction extends Function {
 function mapNumberWithArrayItem(item: number): ReduceArrayFunction  {
 	return (prev: number, current: number, index): number => current === item ? index : prev;
 }
-
-// O(n)
-function binarySearch(list: number[], item: number): number {
-	return list.reduce(mapNumberWithArrayItem(item), -1)
-}
-

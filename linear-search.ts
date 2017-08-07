@@ -9,5 +9,5 @@ interface ReduceArrayFunction extends Function {
 }
 
 function mapNumberWithArrayItem(item: number): ReduceArrayFunction  {
-	return (prev: number, current: number, index): number => current === item ? index : prev;
+	return (prev: number, current: number, index: number): number => current === item ? index : prev;
 }

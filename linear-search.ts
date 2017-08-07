@@ -1,4 +1,5 @@
-// O(n)
+// Returns index of item from array
+// Complexity O(n)
 function main(list: number[], item: number): number {
 	return list.reduce(mapNumberWithArrayItem(item), -1)
 }

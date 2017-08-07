@@ -7,7 +7,7 @@ function mapNumberWithArrayItem(item: number): ReduceArrayFunction  {
 }
 
 // O(n)
-function binarySearch(list: number[], item: number): number | boolean {
+function binarySearch(list: number[], item: number): number {
 	return list.reduce(mapNumberWithArrayItem(item), -1)
 }
 

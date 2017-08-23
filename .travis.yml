@@ -4,4 +4,4 @@ node_js:
 
 
 script:
-- cd binary-search && npm run test
+- cd binary-search && npm install && npm run test

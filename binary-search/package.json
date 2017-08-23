@@ -1,0 +1,26 @@
+{
+  "name": "binary-search",
+  "version": "1.0.0",
+  "description": "Yet another binary search implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhv/algorithms-and-data-structures.git"
+  },
+  "keywords": [
+    "binary",
+    "search"
+  ],
+  "author": "Vladislav Khvostov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vkhv/algorithms-and-data-structures/issues"
+  },
+  "homepage": "https://github.com/vkhv/algorithms-and-data-structures#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}

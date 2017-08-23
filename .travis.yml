@@ -2,8 +2,6 @@ language: node_js
 node_js:
 - '8.4.0'
 
-before_script:
-- cd binary-search && npm install
 
 script:
 - cd binary-search && npm run test

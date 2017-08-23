@@ -1,4 +1,4 @@
-const binarySearch = require('./binary-search');
+const binarySearch = require('./index');
 const sortedNumbersArray = [20, 40, 70, 90, 100, 200, 300, 400, 500];
 
 test('Check elem from left side', () => {

@@ -3,7 +3,7 @@ node_js:
 - '8.4.0'
 
 before_script:
-- npm i
+- npm install
 
 script:
 - cd binary-search && npm run test

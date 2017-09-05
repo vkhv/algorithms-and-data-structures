@@ -1,10 +1,18 @@
 import "package:range/range.dart";
 
 main() {
-// 	print('str');
+	final result = smalest([1, 2, 4]);
+	print(result); // 1
 }
 
-smalest(List<int> array) {
+num smalest(List<int> array) {
 	var smallest = array[0];
-	var smallestIndex = array[0];
+	var smallestIndex = 0;
+	for (int i in range(array.length)) {
+		if(array[i] < smallest) {
+			smallest = arr[i];
+			smallestIndex = i;
+		}
+	}
+	return 1;
 }

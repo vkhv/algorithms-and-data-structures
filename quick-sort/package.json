@@ -1,0 +1,14 @@
+{
+  "name": "quick-sort",
+  "version": "1.0.0",
+  "description": "Yet another quicksort implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  }
+}

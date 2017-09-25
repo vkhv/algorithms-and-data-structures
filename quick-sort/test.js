@@ -1,4 +1,4 @@
-const quickSort = require('./index');
+const quickSort = require('./lib/');
 const assert = require('assert');
 
 const unsortedArray = [10, 5, 2, 3];

@@ -7,7 +7,7 @@
     "test": "mocha test.js",
 	  "build": "coffee --compile --output lib/ src/"
   },
-  "author": "",
+  "author": "Vladislav Khvostov",
   "license": "WTFPL",
   "devDependencies": {
     "coffeescript": "^2.0.0",

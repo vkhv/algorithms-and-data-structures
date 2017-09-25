@@ -8,9 +8,9 @@ quickSort = (array) ->
     return if array[0] < array[1] then array else [array[1], array[0]];
 
   pivot = array[0]
-  itemsAreLessPivotSubArray = array.filter((item) -> item < pivot);
-  itemsAreMoreThenPivotSubArray = array.filter((item) -> item > pivot);
+  subArrayWithItemsLessThanPivot = array.filter((item) -> item < pivot);
+  subArrayWithItemsMoreThanPivot = array.filter((item) -> item > pivot);
 
-  return [...quickSort(itemsAreLessPivotSubArray), pivot, ...quickSort(itemsAreMoreThenPivotSubArray)];
+  return [...quickSort(subArrayWithItemsLessThanPivot), pivot, ...quickSort(subArrayWithItemsMoreThanPivot)];
 
 module.exports = quickSort;

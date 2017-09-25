@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha test.js"
   },
-  "author": "",
+  "author": "Vladislav Khvostov",
   "license": "WTFPL",
   "devDependencies": {
     "mocha": "^3.5.3"

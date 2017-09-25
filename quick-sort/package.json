@@ -4,8 +4,13 @@
   "description": "Yet another quicksort implementation",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "mocha dist/",
 	  "build": "coffee --compile --output dist/ src/"
+=======
+    "test": "mocha test.js",
+    "build": "coffee --compile --output lib/ src/"
+>>>>>>> fcdb8553a410ba1379eb8c252e8c1ffc5a5618da
   },
   "author": "Vladislav Khvostov",
   "license": "WTFPL",

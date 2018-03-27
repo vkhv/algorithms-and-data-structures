@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-- '8.4.0'
+- '8.9'
 
 
 script:
 - cd binary-search && npm install && npm run test
 - cd ../quick-sort && npm install && npm run build && npm run test
+- cd ../bread-first_search && npm i && npm run test
+
+

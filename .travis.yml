@@ -6,6 +6,6 @@ node_js:
 script:
 - cd binary-search && npm install && npm run test
 - cd ../quick-sort && npm install && npm run build && npm run test
-- cd ../bread-first_search && npm i && npm run test
+- cd ../breadth-first_search && npm i && npm run test
 
 
